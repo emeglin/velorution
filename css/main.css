@@ -1,3 +1,7 @@
+body {
+    font-family: aleoregular;
+}
+
 #banner {
     border-bottom: 5px solid rgba(213, 63, 67, 1);
     height: 200px;
@@ -13,7 +17,7 @@
     height: 180px;
     width: auto;
 }
-#banner #social-btn a{
+#banner .social-btn a{
     display:inline-block;
     font-size: 2.5em;
     height:3.5rem;
@@ -32,7 +36,7 @@
 .navbar a{
     font-family: aleoregular;
     font-size: 1.3em;
-    color: antiquewhite;
+    color: white;
 }
 
 /* navbar hover */
@@ -53,10 +57,54 @@
     border: 2px solid rgb(78, 148, 137);
 }
 
-.navbar #social-btn a{
+.navbar .social-btn a{
     display:inline-block;
     font-size: 1.5em;
     height:2rem;
     width:2rem;
     color: rgb(255, 255, 255);
 }
+
+.background_blue
+{
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    border-top: 5px solid rgba(213, 63, 67, 1);
+    background-color: #88d1c1;
+    color: white; 
+    width: 100%;
+    max-height: 150px;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+}
+
+footer img{
+    height: 5em;
+    width: auto;
+    margin-right: 2%;
+}
+ 
+footer p{
+    padding: 0%;
+    margin: 0%;
+}
+footer input {
+    height: 2em;
+    width: 10em;
+}
+
+.newsletter{
+    height: 10em;
+    width: 25em;
+}
+footer .social-btn a { 
+    display:inline-block;
+    font-size: 2.5em;
+    height:3.5rem;
+    width:3.5rem;
+    color: rgb(255, 255, 255); 
+} 
