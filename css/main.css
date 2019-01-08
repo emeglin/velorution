@@ -6,9 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 #main-logo img{
-    margin-top: -50px;  
+    /* margin-top: -50px;   */
     filter: drop-shadow(1.5px 1.5px 0.3px #00000096);
     height: 180px;
     width: auto;
@@ -21,18 +22,25 @@
     color: rgb(255, 255, 255);    
     filter: drop-shadow(1.5px 1.5px 0.3px #00000096);
 }
+#social-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 .navbar{
-    
     height: 50px;
     width: 100%;
     background-color: #B2DFD9   ;
 }
 
+.bg-light{    background-color: #B2DFD9 !important;
+}
+
 .navbar a{
     font-family: aleoregular;
     font-size: 1.3em;
-    color: antiquewhite;
+    color: white;
 }
 
 /* navbar hover */
