@@ -1,15 +1,21 @@
+/* general css */
+.bg_blue {
+    background-color: #A1E4DA;
+}
+
+/* banner css */
 #banner {
     border-bottom: 5px solid rgba(213, 63, 67, 1);
     height: 200px;
     width: 100%;
-    background-image: url(../content/banniere.svg);
+    background-color: #A1E4DA;
+    background-image: url('../content/banner1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
 }
 #main-logo img{
-    /* margin-top: -50px;   */
     filter: drop-shadow(1.5px 1.5px 0.3px #00000096);
     height: 180px;
     width: auto;
@@ -31,19 +37,20 @@
 .navbar{
     height: 50px;
     width: 100%;
-    background-color: #B2DFD9   ;
+    background-color: #A1E4DA;
 }
 
-.bg-light{    background-color: #B2DFD9 !important;
+.bg-light{
+    background-color: #A1E4DA !important;
 }
 
+/* navbar css */
 .navbar a{
     font-family: aleoregular;
     font-size: 1.3em;
     color: white;
 }
 
-/* navbar hover */
 .collapse a:hover{
     font-family: aleobold;
     background-color: rgba(0, 0, 0, 0.5)
@@ -51,7 +58,6 @@
 
 .navbar-brand img{
     height: 20px;
-
 }
 
 .navbar button i {
@@ -67,4 +73,43 @@
     height:2rem;
     width:2rem;
     color: rgb(255, 255, 255);
+}
+
+/* intro css */
+
+.intro_txt{
+border-radius: 2px;
+max-width: 50%;
+/* max-height: 800px; */
+background-image: url('../content/background.svg');
+background-color: blue;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.intro_txt img{
+    top:-5%;
+    height: 20%;
+}
+
+.intro_txt p{
+    font-family: aleobold;
+    font-size: 1.3em;
+    color: white;
+}
+
+
+@media (max-width: 670px) {
+    .intro_txt {
+        background-image: url('../content/mobile_bg.svg');
+        background-repeat: repeat;
+        max-width: 85%;
+    }
+    .intro_txt p{
+        font-size: 1.1em;
+    }
+    .intro_txt img{
+        top: -5%;
+        height: 15%;
+    }
 }
