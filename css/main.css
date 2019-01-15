@@ -1,6 +1,6 @@
 /* general css */
 .bg_blue {
-    background-color: #A1E4DA;
+    background-color: #63D5C9;
 }
 
 /* banner css */
@@ -37,11 +37,11 @@
 .navbar{
     height: 50px;
     width: 100%;
-    background-color: #A1E4DA;
+    background-color: #63D5C9;
 }
 
 .bg-light{
-    background-color: #A1E4DA !important;
+    background-color: #63D5C9 !important;
 }
 
 /* navbar css */
@@ -79,17 +79,16 @@
 
 .intro_txt{
 border-radius: 2px;
-max-width: 50%;
-/* max-height: 800px; */
+max-height: 600px;
+max-width: 60%;
 background-image: url('../content/background.svg');
-background-color: blue;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
 
 .intro_txt img{
     top:-5%;
-    height: 20%;
+    height: 30%;
 }
 
 .intro_txt p{
@@ -104,6 +103,7 @@ background-size: contain;
         background-image: url('../content/mobile_bg.svg');
         background-repeat: repeat;
         max-width: 85%;
+        max-height: 900px;
     }
     .intro_txt p{
         font-size: 1.1em;
